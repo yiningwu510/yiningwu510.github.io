@@ -1,0 +1,102 @@
+{{ define "main" }}
+{{ $cv := .Site.Data.cv }}
+
+<section class="page-header">
+  <h1>Research</h1>
+</section>
+<p class="page-intro">My research focuses on environmental economics and agricultural economics, exploring the intersections of environmental quality degradation, agricultural practices, and non-market valuation.</p>
+
+<section class="section">
+  <h2>Peer-Reviewed Publications</h2>
+  {{ range $cv.publications }}
+  <div class="paper-card">
+    <div class="paper-card-inner">
+      {{ if .image }}
+      <div class="paper-image">
+        <img src="{{ .image }}" alt="{{ .title }}">
+      </div>
+      {{ else }}
+      <div class="paper-image-placeholder"></div>
+      {{ end }}
+      <div class="paper-body">
+        <h3 class="paper-title">{{ .title }}</h3>
+        <p class="paper-meta">{{ .authors }} &middot; <em>{{ .journal }}</em>{{ with .volume }}, {{ . }}{{ end }} ({{ .year }})</p>
+        {{ with .description }}<p class="paper-description">{{ . }}</p>{{ end }}
+        <div class="paper-links">
+          {{ with .doi }}<a href="{{ . }}" target="_blank" rel="noopener" class="paper-link">DOI</a>{{ end }}
+          {{ with .pdf }}<a href="{{ . }}" target="_blank" rel="noopener" class="paper-link">PDF</a>{{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+  {{ end }}
+</section>
+
+<section class="section">
+  <h2>Working Papers</h2>
+  {{ range $cv.working_papers }}
+  <div class="paper-card">
+    <div class="paper-card-inner">
+      {{ if .image }}
+      <div class="paper-image">
+        <img src="{{ .image }}" alt="{{ .title }}">
+      </div>
+      {{ else }}
+      <div class="paper-image-placeholder"></div>
+      {{ end }}
+      <div class="paper-body">
+        <h3 class="paper-title">{{ .title }}{{ with .note }} <span class="paper-note">{{ . }}</span>{{ end }}</h3>
+        <p class="paper-meta">{{ .coauthors }}</p>
+        {{ with .description }}<p class="paper-description">{{ . }}</p>{{ end }}
+        {{ with .available }}<p class="paper-available">{{ . }}</p>{{ end }}
+        <div class="paper-links">
+          {{ with .doi }}<a href="{{ . }}" target="_blank" rel="noopener" class="paper-link">DOI</a>{{ end }}
+          {{ with .pdf }}<a href="{{ . }}" target="_blank" rel="noopener" class="paper-link">PDF</a>{{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+  {{ end }}
+</section>
+
+<section class="section">
+  <h2>Work in Progress</h2>
+  {{ range $cv.work_in_progress }}
+  <div class="paper-card">
+    <div class="paper-card-inner">
+      <div class="paper-image-placeholder"></div>
+      <div class="paper-body">
+        <h3 class="paper-title">{{ .title }}</h3>
+        {{ with .coauthors }}<p class="paper-meta">{{ . }}</p>{{ end }}
+      </div>
+    </div>
+  </div>
+  {{ end }}
+</section>
+
+<section class="section">
+  <h2>Book Chapters</h2>
+  {{ range $cv.book_chapters }}
+  <div class="paper-card">
+    <div class="paper-card-inner">
+      <div class="paper-image-placeholder"></div>
+      <div class="paper-body">
+        <h3 class="paper-title">{{ .title }}</h3>
+        <p class="paper-meta">{{ .authors }} ({{ .year }}). In {{ .editors }} (Eds.), <em>{{ .book }}</em>. {{ .location }}: {{ .publisher }}, pp. {{ .pages }}.</p>
+      </div>
+    </div>
+  </div>
+  {{ end }}
+</section>
+
+<section class="section">
+  <h2>Selected Presentations</h2>
+  <ul class="presentations-list">
+    {{ range $cv.presentations }}
+    <li>
+      <strong>{{ .event }}</strong>. {{ .location }} ({{ .date }})
+    </li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}

@@ -1,0 +1,18 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Yining Wu"
+
+[params]
+  description = "Academic website of Yining Wu - Environmental and Resource Economics"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML"]
+
+# Clean URLs
+[permalinks]
+  page = "/:slug/"

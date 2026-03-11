@@ -1,0 +1,48 @@
+{{ define "main" }}
+{{ $cv := .Site.Data.cv }}
+
+<section class="page-header">
+  <h1>Teaching</h1>
+</section>
+
+<section class="section">
+  <h2>Instructor</h2>
+  {{ range $cv.teaching.instructor }}
+  <div class="teaching-card">
+    <div class="teaching-header">
+      <h3>{{ .course }} <span class="course-code">({{ .code }})</span></h3>
+      <span class="term">{{ .term }}</span>
+    </div>
+    <p class="teaching-details">{{ .institution }} &middot; {{ .type }} ({{ .students }} students)</p>
+    {{ with .evaluation }}<p class="teaching-eval">Student Evaluation: <strong>{{ . }}</strong></p>{{ end }}
+  </div>
+  {{ end }}
+</section>
+
+<section class="section">
+  <h2>Lab Instructor</h2>
+  {{ range $cv.teaching.lab_instructor }}
+  <div class="teaching-card">
+    <div class="teaching-header">
+      <h3>{{ .course }} <span class="course-code">({{ .code }})</span></h3>
+      <span class="term">{{ .term }}</span>
+    </div>
+    <p class="teaching-details">{{ .institution }} &middot; {{ .type }} ({{ .students }} students)</p>
+    {{ with .evaluation }}<p class="teaching-eval">Student Evaluation: <strong>{{ . }}</strong></p>{{ end }}
+  </div>
+  {{ end }}
+</section>
+
+<section class="section">
+  <h2>Teaching Assistant</h2>
+  {{ range $cv.teaching.teaching_assistant }}
+  <div class="teaching-card">
+    <div class="teaching-header">
+      <h3>{{ .course }} <span class="course-code">({{ .code }})</span></h3>
+      <span class="term">{{ .term }}</span>
+    </div>
+    <p class="teaching-details">{{ .institution }}</p>
+  </div>
+  {{ end }}
+</section>
+{{ end }}

@@ -1,0 +1,283 @@
+\documentclass[letterpaper,11pt]{article}
+\usepackage[margin=0.8in]{geometry}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{multicol}
+\usepackage{baskervillef}
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\usepackage{lastpage}
+\usepackage{amsmath}
+% Define custom colors
+\definecolor{sectioncolor}{RGB}{0,0,0}  % Changed to black for more professional look
+\definecolor{linkcolor}{RGB}{0,0,0}     % Changed to black for consistency
+\definecolor{footergrey}{gray}{0.3}
+
+
+
+
+\fancypagestyle{plain}{
+    \fancyhf{} % Clear header/footer
+    \renewcommand{\headrulewidth}{0pt}
+    \fancyfoot[L]{\color{footergrey}\footnotesize Updated: \today}
+    \fancyfoot[R]{\color{footergrey}\footnotesize Page \thepage\ of \text{\color{footergrey}\pageref{LastPage}}}
+}
+
+\pagestyle{plain} % Apply this style to all pages
+
+% Section formatting - More subtle and professional
+\titleformat{\section}{
+    \normalfont\large\bfseries\color{sectioncolor}
+}{}{0em}{}[\color{black}\titlerule]
+\titlespacing*{\section}{0pt}{15pt}{10pt}
+
+% Improved heading command with better spacing
+\newcommand{\resumeSubheading}[4]{
+  \vspace{3pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{#2} \\
+      \textit{\small#3} & \textit{\small#4} \\
+    \end{tabular*}\vspace{3pt}
+}
+
+% More professional looking itemize environment
+\newcommand{\resumeItemListStart}{
+    \begin{itemize}[leftmargin=0.15in, label=\textbullet, itemsep=3pt, parsep=3pt]
+}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+
+\begin{document}
+
+% Header with better spacing and alignment
+\begin{center}
+    {\Large\textbf{YINING WU}}\vspace{10pt}\\
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
+    \begin{minipage}[t]{0.6\textwidth}
+    \begin{flushleft}
+    University of Tennessee\\
+    Department of Agricultural and Resource Economics\\
+    Baker School of Public Policy and Public Affairs\\
+    \end{flushleft}
+    \end{minipage}
+    &
+    \begin{minipage}[t]{0.35\textwidth}
+    \begin{flushright}
+    \href{mailto:ywu96@utk.edu}{ywu96@utk.edu}\\
+    (+1) 614-906-1547\\
+    \href{https://sites.google.com/view/yiningwu}{sites.google.com/view/yiningwu}
+    \end{flushright}
+    \end{minipage}
+    \end{tabular*}
+\end{center}
+
+\section{EDUCATION}
+\resumeItemListStart
+    \resumeSubheading
+        {The Ohio State University}{2025}
+        {Ph.D. Agricultural, Environmental, and Development Economics}{University Fellowship recipient}
+        \begin{itemize}[nosep, leftmargin=1em]
+        {Committee: Brent Sohngen (Chair), Daniela Miteva, Seungki Lee, and Frank Lupi}\\
+        {Dissertation: "Ecosystem Services Under Threat and Opportunity: Recreational Fishing Losses from Water Quality Degradation and Carbon Sequestration Benefits of Crop Management"}
+        \end{itemize}
+    \resumeSubheading
+        {The Ohio State University}{2022}
+        {M.S. Agricultural, Environmental, and Development Economics}{}
+    \resumeSubheading
+        {China Agricultural University}{2020}
+        {B.S. (Hons.) Agricultural and Forestry Economics and Management}{China}
+    \resumeSubheading
+        {Oklahoma State University}{2018}
+        {Exchange Student (Hons.) Agriculture Economics}{}
+\resumeItemListEnd
+
+\section{ACADEMIC EMPLOYMENT}
+\resumeItemListStart
+  \vspace{3pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{Post-Doctoral Research Associate} & \textbf{June 2025--present}
+    \end{tabular*}\vspace{3pt}
+    \begin{itemize}[nosep, leftmargin=1em]
+        {University of Tennessee, Department of Agricultural and Resource Economics and Baker School of Public Policy and Public Affairs}
+    \end{itemize}
+\resumeItemListEnd
+
+\section{FIELDS OF INTEREST}
+
+Environmental and Resource Economics, Agricultural Economics, and Applied Econometrics
+
+\section{PEER-REVIEWED PUBLICATION}
+\begin{itemize}[leftmargin=1em, itemsep=4pt]
+    \item[\small\textbullet] Wu, Y., Davis, E. C., \& Sohngen, B. L. "Crop Rotation and the Impact on Soil Carbon in the US Corn Belt," \textit{Carbon Balance and Management} (2025) \\
+    \href{https://doi.org/10.1186/s13021-025-00293-5}{https://doi.org/10.1186/s13021-025-00293-5}
+\end{itemize}
+
+
+\section{WORKING PAPERS}
+\begin{itemize}[leftmargin=1em, itemsep=4pt]
+    \item[\small\textbullet] ``Waters of Change: Estimating Spatiotemporal Welfare Losses from Recurring Harmful Algal Blooms in Lake Erie Recreational Fishing'' (with F. Lupi and B. Sohngen)
+    \item[\small\textbullet] ``Who Stays, Who Leaves? Recreational Fishing Responses to Harmful Algal Blooms in Lake Erie'' (with B. Sohngen and S. Ludsin)
+\end{itemize}
+
+
+\section{WORK IN PROGRESS}
+\begin{itemize}[leftmargin=1em, itemsep=4pt]
+    \item[\small\textbullet] ``Do Cow-Calf Producers Avoid Uncertain Conservation Payments? Measuring Risk Preferences for Ecosystem Service Contracts''
+    \item[\small\textbullet] ``Optimizing Grazing Management for Profit and Ecosystem Services: An Integrated Biogeochemical-Economic Model''
+\end{itemize}
+
+\section{BOOK CHAPTERS}
+\begin{itemize}[leftmargin=1em]
+    \item[\small\textbullet] Wu, Y. (2018). ``The Development of Rural Social Security System from 1978 to 2018.'' In Li, J., et al. (Eds.), \textit{Social Changes in Rural Area since 1978}. Beijing, China: China Agriculture Press, 393-404.
+\end{itemize}
+
+\section{TEACHING EXPERIENCE}
+\resumeItemListStart
+    \resumeSubheading
+        {Instructor}{}
+        {The Ohio State University}{}
+        \begin{itemize}[nosep, leftmargin=1em]
+            \item[\small\textbullet] \textbf{Environmental \& Natural Resource Economics} (AEDECON 4310) \hfill Summer 2024\\
+                Online Undergraduate Core Course (39 students)\\
+                Overall Student Evaluation: \textbf{4.44/5.0}
+        \end{itemize}
+        \vspace{4pt}
+
+    \resumeSubheading
+        {Lab Instructor}{}
+        {The Ohio State University}{}
+        \begin{itemize}[nosep, leftmargin=1em]
+            \item[\small\textbullet] \textbf{Introduction to Sustainability} (ENR/AEDECON 2501) \hfill Fall 2024\\
+                Undergraduate General Education Course (178 students total, 15-28 per lab)\\
+                Overall Student Evaluation: \textbf{4.38/5.0}
+                \vspace{4pt}
+            \item[\small\textbullet] \textbf{Applied Econometrics II} (AEDECON 7140) \hfill Spring 2022\\
+                Ph.D. Core Course (7 students)
+        \end{itemize}
+        \vspace{4pt}
+
+    \resumeSubheading
+        {Teaching Assistant}{}
+        {The Ohio State University}{}
+        \begin{itemize}[nosep, leftmargin=1em]
+            \item[\small\textbullet] \textbf{Environmental \& Natural Resource Economics} (AEDECON 4310) \hfill Spring 2024
+            \item[\small\textbullet] \textbf{Strategic Management} (AEDECON 4106) \hfill Spring 2022
+            \item[\small\textbullet] \textbf{International Economic Development} (AEDECON/PUBAFRS 4535) \hfill Fall 2021
+        \end{itemize}
+\resumeItemListEnd
+
+\section{RESEARCH EXPERIENCE}
+\resumeItemListStart
+    \resumeSubheading
+        {Graduate Research Assistant}{2021--2024}
+        {The Ohio State University}{Prof. Brent Sohngen}
+    \resumeSubheading
+        {Project Leader}{2018--2020}
+        {China Agricultural University}{National Undergraduate Student Research Program}
+\resumeItemListEnd
+
+\section{PRESENTATIONS}
+\begin{itemize}[leftmargin=1em, itemsep=2pt]
+    \item[\small\textbullet] 3rd Annual Postdoc Research Symposium. Knoxville, TN (March 2026)
+    \item[\small\textbullet] W5133 Multi-State Project Annual Meeting. Boise, ID (February 2026)
+    \item[\small\textbullet] AREC Departmental Seminar. Knoxville, TN (October 2025)
+    \item[\small\textbullet] Camp Resources XXXI. Asheville, NC (August 2025)
+    \item[\small\textbullet] Association of Environmental and Resource Economists Summer Conference. Santa Ana Pueblo, NM (May 2025)
+    \item[\small\textbullet] Agricultural and Applied Economics Association Annual Meeting. New Orleans, LA (July 2024)
+    \item[\small\textbullet] Lake Erie - Inland Waters Annual Research Review. Columbus, OH (December 2023)
+    \item[\small\textbullet] Interdisciplinary Water Research Symposium. Columbus, OH (November 2023)
+    \item[\small\textbullet] Agricultural and Applied Economics Association Annual Meeting. Washington D.C. (July 2023)
+    \item[\small\textbullet] Association of Environmental and Resource Economists Summer Conference. Portland, ME (June 2023)
+    \item[\small\textbullet] U.S. Department of Agriculture Carbon Sinks Modelling Meeting. Atlanta, GA (September 2022)
+\end{itemize}
+
+\section{PROFESSIONAL SERVICE}
+\begin{itemize}[leftmargin=1em, itemsep=4pt]
+    \item[\small\textbullet] Referee for \textit{Carbon Balance and Management} and \textit{Catena}
+    \item[\small\textbullet] Abstract reviewer for \textit{Association of Environmental and Resource Economists} Summer Conference
+    \item[\small\textbullet] Proposal reviewer for CFAES Internal Grants Program
+\end{itemize}
+
+\section{HONORS AND FELLOWSHIPS}
+\resumeItemListStart
+    \resumeSubheading
+        {Postdoc Travel Award}{2026}
+        {University of Tennessee}{}
+    \resumeSubheading
+        {AERE Graduate Student and Postdoc Travel Scholarship}{2025}
+        {Association of Environmental and Resource Economists}{}
+        \resumeSubheading
+        {Career Development Grant}{2023}
+        {The Ohio State University}{}
+    \resumeSubheading
+        {2nd Prize in Oral Presentation Student Competition}{2023}
+        {Interdisciplinary Water Research Symposium}{}
+    \resumeSubheading
+        {University Fellowship}{2020--2021}
+        {The Ohio State University}{}
+    \resumeSubheading
+        {University Distinguished Thesis Award}{2020}
+        {China Agricultural University}{}
+    \resumeSubheading
+        {Beijing Outstanding Student Award}{2020}
+        {Beijing Municipal Education Commission}{}
+    \resumeSubheading
+        {First Prize in Xiji-An Agricultural Economics Research}{2018}
+        {China Agricultural University}{}
+    \resumeSubheading
+        {President's Honor Roll}{2018}
+        {Oklahoma State University}{}
+\resumeItemListEnd
+
+\section{OTHER INFORMATION}
+\begin{itemize}[leftmargin=1em, itemsep=4pt]
+    \item[\small\textbullet] \textbf{Technical Skills:} R, Stata, Python, HPC, Matlab, ArcGIS, QGIS, LaTeX
+    \item[\small\textbullet] \textbf{Languages:} English (fluent), Chinese (native)
+\end{itemize}
+
+\section{REFERENCES}
+
+\noindent
+\textbf{Dale Manning}\\
+Associate Professor\\
+Department of Agricultural and Resource Economics\\
+Baker School of Public Policy and Public Affairs\\
+University of Tennessee\\
+1640 Cumberland Avenue\\
+Knoxville, TN 37996-3340\\
+\href{mailto:dtmanning@utk.edu}{dtmanning@utk.edu}
+
+\vspace{12pt}
+
+\noindent
+\textbf{Brent Sohngen}\\
+CFAES Distinguished Professor\\
+Department of Agricultural, Environmental, and Development Economics\\
+The Ohio State University\\
+2120 Fyffe Rd.\\
+Columbus, OH 43210-1067\\
+\href{mailto:sohngen.1@osu.edu}{sohngen.1@osu.edu}
+
+\vspace{12pt}
+
+\noindent
+\textbf{Eric Davis}\\
+Research Economist\\
+Economic Research Service\\
+U.S. Department of Agriculture\\
+PO Box 419205, MS 9999\\
+Kansas City, MO 64141-6205\\
+\href{mailto:eric.davis3@usda.gov}{eric.davis3@usda.gov}
+
+
+
+
+\end{document}

@@ -1,0 +1,8 @@
+{{ $cv := .Site.Data.cv }}
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-content">
+      <p>&copy; {{ now.Year }} {{ $cv.personal.name }}</p>
+    </div>
+  </div>
+</footer>

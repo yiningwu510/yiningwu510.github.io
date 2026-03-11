@@ -1,0 +1,13 @@
+public/
+resources/
+photo/
+.hugo_build.lock
+.DS_Store
+cv/*.aux
+cv/*.fdb_latexmk
+cv/*.fls
+cv/*.log
+cv/*.out
+cv/*.synctex.gz
+cv/logs/
+logs/

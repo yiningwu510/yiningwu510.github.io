@@ -1,0 +1,17 @@
+<nav class="nav">
+  <div class="nav-container">
+    <a class="nav-brand" href="/">Yining Wu</a>
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="/" {{ if .IsHome }}class="active"{{ end }}>Home</a></li>
+      <li><a href="/research/" {{ if eq .RelPermalink "/research/" }}class="active"{{ end }}>Research</a></li>
+      <li><a href="/teaching/" {{ if eq .RelPermalink "/teaching/" }}class="active"{{ end }}>Teaching</a></li>
+      <li><a href="/cv/" {{ if eq .RelPermalink "/cv/" }}class="active"{{ end }}>CV</a></li>
+      <li><a href="/news/" {{ if eq .RelPermalink "/news/" }}class="active"{{ end }}>News</a></li>
+    </ul>
+  </div>
+</nav>

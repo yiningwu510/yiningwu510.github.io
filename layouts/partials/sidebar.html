@@ -46,14 +46,14 @@
       </a>
     </div>
   </div>
-
-  <!-- Mobile toggle -->
-  <button class="sidebar-toggle" aria-label="Toggle menu">
-    <span></span><span></span><span></span>
-  </button>
-  <script>
-    document.querySelector('.sidebar-toggle').addEventListener('click', function() {
-      document.querySelector('.sidebar').classList.toggle('open');
-    });
-  </script>
 </aside>
+
+<!-- Mobile toggle (outside sidebar so it's always visible) -->
+<button class="sidebar-toggle" aria-label="Toggle menu">
+  <span></span><span></span><span></span>
+</button>
+<script>
+  document.querySelector('.sidebar-toggle').addEventListener('click', function() {
+    document.querySelector('.sidebar').classList.toggle('open');
+  });
+</script>

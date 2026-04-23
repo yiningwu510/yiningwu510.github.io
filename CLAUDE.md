@@ -50,6 +50,10 @@ hugo              # Build to public/
 When asked to update something (e.g., "add a new paper"):
 1. Update `data/cv.yaml`
 2. Update `cv/cv.tex`
-3. If CV PDF needs updating, recompile and copy
+3. **Always** recompile the CV PDF after any edit to `cv/cv.tex`:
+   ```bash
+   cd cv && pdflatex -interaction=nonstopmode cv.tex && pdflatex -interaction=nonstopmode cv.tex && cd ..
+   cp cv/cv.pdf static/files/cv.pdf
+   ```
 4. Test with `hugo server`
 5. Commit and push to deploy

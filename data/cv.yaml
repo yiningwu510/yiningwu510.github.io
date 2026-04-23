@@ -63,6 +63,14 @@ fields_of_interest:
   - "Applied Econometrics"
 
 publications:
+  - authors: "Stanley, P. L., et al."
+    title: "Merging Rigor and Relevance in Grazingland Research: A Comprehensive Social-Ecological Monitoring Approach"
+    journal: "Carbon Balance and Management"
+    year: 2026
+    volume: "21(1), 67"
+    doi: "https://doi.org/10.1186/s13021-026-00431-7"
+    description: "The Metrics, Management, and Monitoring (3M) project presents a novel social-ecological framework integrating biophysical, socioeconomic, and management data across U.S. grazinglands. Combining controlled experiments at four intensively monitored hubs with data from 59 producer-managed farms and ranches, over 50 scientists evaluate how grazing strategies affect soil carbon, water dynamics, CO₂ fluxes, plant communities, productivity, social wellbeing, and producer economics. The project offers a scalable research model bridging ecological and social sciences to support adaptive, evidence-based grazing management and ecosystem service delivery."
+    image: "/img/papers/grazingland-3m.jpg"
   - authors: "Wu, Y., Davis, E. C., & Sohngen, B. L."
     title: "Crop Rotation and the Impact on Soil Carbon in the US Corn Belt"
     journal: "Carbon Balance and Management"
@@ -241,6 +249,10 @@ references:
     email: "eric.davis3@usda.gov"
 
 news:
+  - date: "2026-04-03"
+    title: "New Publication in Carbon Balance and Management"
+    text: "Our 3M project paper on social-ecological monitoring of U.S. grazinglands is out. A big team effort with over 40 collaborators across ecology, economics, and soil science."
+    link: "https://doi.org/10.1186/s13021-026-00431-7"
   - date: "2026-03-25"
     title: "Presented at UT Postdoc Research Symposium"
     text: "Presented work on conservation payment uncertainty at the 3rd Annual Postdoc Research Symposium at UT."

@@ -69,7 +69,7 @@ publications:
     year: 2026
     volume: "249, 109123"
     doi: "https://doi.org/10.1016/j.ecolecon.2026.109123"
-    description: "We provide the first comprehensive examination of behavioral and temporal heterogeneity in recreational fishing responses to HABs. Combining spatiotemporally varying cyanobacteria intensity measures with on-site counts of private boats, charter boats, and shore anglers across 36 Ohio Lake Erie harbors during 2011-2018, we use Poisson pseudo-maximum likelihood with a Control Function approach. Charter boats show the strongest response, followed by shore anglers and private boats. Shore anglers and private boats show stronger HAB avoidance on weekdays than weekends, while charter boats respond consistently. Simulating HAB scenarios from 10% to 50%, reductions could increase fishing trips by 2-27% and increases could reduce them by 2-16%, depending on recreation type."
+    description: "We examine behavioral and temporal heterogeneity in recreational fishing responses to HABs, asking who avoids blooms, when, and what the potential benefits of HAB mitigation might be. Combining spatiotemporally varying cyanobacteria intensity measures with on-site counts of private boats, charter boats, and shore anglers across 36 Ohio Lake Erie harbors during 2011-2018, we use Poisson pseudo-maximum likelihood with a Control Function approach. Charter boats show the strongest response, followed by shore anglers and private boats. Shore anglers and private boats show stronger HAB avoidance on weekdays than weekends, while charter boats respond consistently. Simulating HAB scenarios from 10% to 50%, reductions could increase fishing trips by 2-27% and increases could reduce them by 2-16%, depending on recreation type."
     image: "/img/papers/lakeerie.png"
   - authors: "Stanley, P. L., et al."
     title: "Merging Rigor and Relevance in Grazingland Research: A Comprehensive Social-Ecological Monitoring Approach"
@@ -254,7 +254,7 @@ references:
 news:
   - date: "2026-06-19"
     title: "New Publication in Ecological Economics"
-    text: "Our paper on recreational fishing responses to harmful algal blooms in Lake Erie is out in Ecological Economics. Thanks to coauthors Brent Sohngen and Stuart Ludsin. Free access is available for a limited time, through August 9, 2026."
+    text: "Our paper on recreational fishing responses to harmful algal blooms in Lake Erie is out in Ecological Economics. Thanks to coauthors Brent Sohngen and Stuart Ludsin."
     link: "https://authors.elsevier.com/a/1nIfF3Hb%7E0ltkf"
   - date: "2026-04-03"
     title: "New Publication in Carbon Balance and Management"

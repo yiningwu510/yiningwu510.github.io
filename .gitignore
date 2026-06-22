@@ -9,5 +9,10 @@ cv/*.fls
 cv/*.log
 cv/*.out
 cv/*.synctex.gz
+cv/*.pdf
 cv/logs/
 logs/
+
+# Local build output & reference PDFs (not part of the deployed site)
+texput.log
+publication/

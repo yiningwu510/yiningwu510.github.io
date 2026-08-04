@@ -109,6 +109,14 @@ work_in_progress:
   - title: "Do Cow-Calf Producers Avoid Uncertain Conservation Payments? Measuring Risk Preferences for Ecosystem Service Contracts"
   - title: "Optimizing Grazing Management for Profit and Ecosystem Services: An Integrated Biogeochemical-Economic Model"
 
+grants:
+  - title: "Data Centers and Housing Markets"
+    sponsor: "Office of Research, Innovation, and Economic Development, University of Tennessee"
+    amount: "$60,000"
+    period: "FY 2027"
+    co_pis: "Tim Fitzgerald, Scott Holladay, Benjamin Leard, and Dale Manning"
+    role: "Key Personnel"
+
 book_chapters:
   - authors: "Wu, Y."
     title: "The Development of Rural Social Security System from 1978 to 2018"
@@ -167,6 +175,9 @@ research_experience:
     period: "2018--2020"
 
 presentations:
+  - event: "Agricultural and Applied Economics Association Annual Meeting"
+    location: "Kansas City, MO"
+    date: "July 2026"
   - event: "3rd Annual Postdoc Research Symposium"
     location: "Knoxville, TN"
     date: "March 2026"
@@ -261,6 +272,9 @@ references:
     email: "eric.davis3@usda.gov"
 
 news:
+  - date: "2026-07-26"
+    title: "Presented at AAEA Annual Meeting"
+    text: "Presented *Rotational Grazing, Farm Profitability, and Ecosystem Service Provision: An Integrated Biogeochemical-Economic Model* at the AAEA Annual Meeting in Kansas City, MO. Great to catch up with old friends and meet new researchers working on grazing and conservation questions."
   - date: "2026-06-19"
     title: "New Publication in Ecological Economics"
     text: "Our paper on recreational fishing responses to harmful algal blooms in Lake Erie is out in Ecological Economics. Thanks to coauthors Brent Sohngen and Stuart Ludsin."

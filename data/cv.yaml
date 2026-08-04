@@ -78,7 +78,6 @@ publications:
     year: 2026
     volume: "249, 109123"
     doi: "https://doi.org/10.1016/j.ecolecon.2026.109123"
-    description: "We examine behavioral and temporal heterogeneity in recreational fishing responses to HABs, asking who avoids blooms, when, and what the potential benefits of HAB mitigation might be. Combining spatiotemporally varying cyanobacteria intensity measures with on-site counts of private boats, charter boats, and shore anglers across 36 Ohio Lake Erie harbors during 2011-2018, we use Poisson pseudo-maximum likelihood with a Control Function approach. Charter boats show the strongest response, followed by shore anglers and private boats. Shore anglers and private boats show stronger HAB avoidance on weekdays than weekends, while charter boats respond consistently. Simulating HAB scenarios from 10% to 50%, reductions could increase fishing trips by 2-27% and increases could reduce them by 2-16%, depending on recreation type."
     image: "/img/papers/lakeerie.png"
   - authors: "Stanley, P. L., et al."
     title: "Merging Rigor and Relevance in Grazingland Research: A Comprehensive Social-Ecological Monitoring Approach"
@@ -86,7 +85,6 @@ publications:
     year: 2026
     volume: "21(1), 67"
     doi: "https://doi.org/10.1186/s13021-026-00431-7"
-    description: "The Metrics, Management, and Monitoring (3M) project presents a novel social-ecological framework integrating biophysical, socioeconomic, and management data across U.S. grazinglands. Combining controlled experiments at four intensively monitored hubs with data from 59 producer-managed farms and ranches, over 50 scientists evaluate how grazing strategies affect soil carbon, water dynamics, CO₂ fluxes, plant communities, productivity, social wellbeing, and producer economics. The project offers a scalable research model bridging ecological and social sciences to support adaptive, evidence-based grazing management and ecosystem service delivery."
     image: "/img/papers/grazingland-3m.jpg"
   - authors: "Wu, Y., Davis, E. C., & Sohngen, B. L."
     title: "Crop Rotation and the Impact on Soil Carbon in the US Corn Belt"
@@ -94,14 +92,12 @@ publications:
     year: 2025
     volume: "20(1), 6"
     doi: "https://doi.org/10.1186/s13021-025-00293-5"
-    description: "Crop-species choices have often been overlooked as a way to build soil carbon. Using USDA Rapid Carbon Assessment data, we examine how corn-soybean rotation influences soil organic carbon (SOC) stocks in the Corn Belt. We show that corn is correlated with higher SOC than soybeans at 0-100 cm depth, and more years of corn means higher SOC -- an additional year of corn every 3 years increases SOC by 25.1%. Shifting rotations to plant corn in 2 of every 3 years across Ohio, Indiana, Iowa, and Illinois could increase SOC by 172.9 million Mg C, worth an estimated $117 billion in social cost of carbon terms."
     image: "/img/papers/raca.png"
 
 working_papers:
   - title: "Waters of Change: Estimating Spatiotemporal Welfare Losses from Recurring Harmful Algal Blooms in Lake Erie Recreational Fishing"
     coauthors: "with F. Lupi and B. L. Sohngen"
     note: ""
-    description: "We estimate spatiotemporal welfare losses from recurring HABs in Lake Erie using revealed preference data from Ohio's coast. Based on annual site-level fishing trip demand for 35 harbors from 1,788 zip codes across 2011-2018, we use a nested logit model to isolate HAB effects from other site and temporal characteristics. The most severe impacts occurred in 2015, with welfare losses of $364,111 and 10,248 lost trips. Simulating a 40% phosphorus reduction under the Great Lakes Water Quality Agreement yields average annual welfare benefits of $60,368. We also find spatial substitution patterns where anglers avoid the western basin in favor of less affected central basin sites."
     image: "/img/papers/welfare.png"
     available: "Manuscript available upon request."
 

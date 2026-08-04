@@ -254,7 +254,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 .paper-image {
   flex-shrink: 0;
-  width: 35%;
+  width: 22%;
   overflow: hidden;
   background: none;
   display: flex;
@@ -270,7 +270,9 @@ img { max-width: 100%; height: auto; display: block; }
   background: linear-gradient(180deg, var(--color-accent), #d97706);
 }
 
-.paper-body { flex: 1; padding: 1.15rem 1.35rem; }
+/* align-self (not align-items on the parent) so .paper-image-placeholder
+   keeps its default stretch and still renders as a full-height accent bar */
+.paper-body { flex: 1; align-self: center; padding: 1.15rem 1.35rem; }
 
 .paper-title {
   font-family: var(--font-heading);
@@ -298,7 +300,6 @@ img { max-width: 100%; height: auto; display: block; }
   text-transform: uppercase;
 }
 
-.paper-description { font-size: 0.9rem; color: var(--color-text); line-height: 1.65; margin-bottom: 0.5rem; }
 .paper-available { font-size: 0.88rem; color: var(--color-muted); font-style: italic; margin-bottom: 0.5rem; }
 
 .paper-links { display: flex; gap: 0.5rem; flex-wrap: wrap; }
@@ -475,6 +476,8 @@ img { max-width: 100%; height: auto; display: block; }
   .education-header { flex-direction: column; gap: 0; }
   .research-areas { columns: 1; }
   .paper-card-inner { flex-direction: column; }
+  /* cross axis is horizontal when stacked -- centering would shrink-wrap the text */
+  .paper-body { align-self: stretch; }
   .paper-image { width: 100%; min-height: 160px; max-height: 200px; }
   .paper-image-placeholder { width: 100%; height: 4px; background: linear-gradient(90deg, var(--color-accent), #d97706); }
   .teaching-header { flex-direction: column; gap: 0; }

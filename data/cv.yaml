@@ -166,6 +166,14 @@ research_experience:
     program: "National Undergraduate Student Research Program"
     period: "2018--2020"
 
+grants:
+  - title: "Data Centers and Housing Markets"
+    sponsor: "Office of Research, Innovation, and Economic Development, University of Tennessee"
+    amount: "$60,000"
+    period: "FY 2027"
+    co_pis: "Tim Fitzgerald, Scott Holladay, Benjamin Leard, and Dale Manning"
+    role: "Key Personnel"
+
 presentations:
   - event: "Agricultural and Applied Economics Association Annual Meeting"
     location: "Kansas City, MO"

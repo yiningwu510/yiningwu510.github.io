@@ -246,27 +246,6 @@ skills:
   technical: "R, Stata, Python, HPC, Matlab, ArcGIS, QGIS, LaTeX"
   languages: "English (fluent), Chinese (native)"
 
-references:
-  - name: "Dale Manning"
-    title: "Associate Professor"
-    department: "Department of Agricultural and Resource Economics"
-    school: "Baker School of Public Policy and Public Affairs"
-    institution: "University of Tennessee"
-    address: "1640 Cumberland Avenue, Knoxville, TN 37996-3340"
-    email: "dtmanning@utk.edu"
-  - name: "Brent Sohngen"
-    title: "CFAES Distinguished Professor"
-    department: "Department of Agricultural, Environmental, and Development Economics"
-    institution: "The Ohio State University"
-    address: "2120 Fyffe Rd., Columbus, OH 43210-1067"
-    email: "sohngen.1@osu.edu"
-  - name: "Eric Davis"
-    title: "Research Economist"
-    department: "Economic Research Service"
-    institution: "U.S. Department of Agriculture"
-    address: "PO Box 419205, MS 9999, Kansas City, MO 64141-6205"
-    email: "eric.davis3@usda.gov"
-
 news:
   - date: "2026-07-26"
     title: "Presented at AAEA Annual Meeting"

@@ -100,10 +100,15 @@ working_papers:
     note: ""
     image: "/img/papers/welfare.png"
     available: "Manuscript available upon request."
+  - title: "Optimizing Grazing Management for Profit and Ecosystem Services: An Integrated Biogeochemical-Economic Model"
+    coauthors: "with D. Manning, Y. Zhang, F. Lupi, N. DeLay, and D. Bista"
+    note: ""
+    available: "Manuscript available upon request."
 
 work_in_progress:
   - title: "Do Cow-Calf Producers Avoid Uncertain Conservation Payments? Measuring Risk Preferences for Ecosystem Service Contracts"
-  - title: "Optimizing Grazing Management for Profit and Ecosystem Services: An Integrated Biogeochemical-Economic Model"
+  - title: "Optimal Conservation Portfolio Design under Uncertainty: Risk Sharing between Contract Providers and Cow-Calf Producers"
+  - title: "Siting and Powering Data Centers in Virginia and Tennessee"
 
 book_chapters:
   - authors: "Wu, Y."

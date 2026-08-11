@@ -96,12 +96,12 @@ publications:
 
 working_papers:
   - title: "Waters of Change: Estimating Spatiotemporal Welfare Losses from Recurring Harmful Algal Blooms in Lake Erie Recreational Fishing"
-    coauthors: "with F. Lupi and B. L. Sohngen"
+    authors: "Wu, Y., Lupi, F., & Sohngen, B. L."
     note: ""
     image: "/img/papers/welfare.png"
     available: "Manuscript available upon request."
   - title: "Optimizing Grazing Management for Profit and Ecosystem Services: An Integrated Biogeochemical-Economic Model"
-    coauthors: "with D. Manning, Y. Zhang, F. Lupi, N. DeLay, and D. Bista"
+    authors: "Wu, Y., Manning, D., Zhang, Y., Lupi, F., DeLay, N., & Bista, D."
     note: ""
     available: "Manuscript available upon request."
 

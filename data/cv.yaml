@@ -96,15 +96,15 @@ publications:
     image: "/img/papers/raca.png"
 
 working_papers:
+  - title: "Optimizing Grazing Management for Profit and Ecosystem Services: An Integrated Biogeochemical-Economic Model"
+    authors: "Wu, Y., Manning, D., Zhang, Y., Lupi, F., DeLay, N., & Bista, D."
+    note: "Job Market Paper"
+    image: "/img/papers/integrated.png"
+    pdf: "/files/wu-job-market-paper.pdf"
   - title: "Waters of Change: Estimating Spatiotemporal Welfare Losses from Recurring Harmful Algal Blooms in Lake Erie Recreational Fishing"
     authors: "Wu, Y., Lupi, F., & Sohngen, B. L."
     note: ""
     image: "/img/papers/welfare.png"
-    available: "Manuscript available upon request."
-  - title: "Optimizing Grazing Management for Profit and Ecosystem Services: An Integrated Biogeochemical-Economic Model"
-    authors: "Wu, Y., Manning, D., Zhang, Y., Lupi, F., DeLay, N., & Bista, D."
-    note: ""
-    image: "/img/papers/integrated.png"
     available: "Manuscript available upon request."
 
 work_in_progress:

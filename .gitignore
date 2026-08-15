@@ -16,3 +16,6 @@ logs/
 # Local build output & reference PDFs (not part of the deployed site)
 texput.log
 publication/
+
+# Job market paper staging dir; the deployed copy lives in static/files/
+jmp/

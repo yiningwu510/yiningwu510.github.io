@@ -103,7 +103,7 @@ working_papers:
     pdf: "/files/wu-job-market-paper.pdf"
   - title: "Waters of Change: Estimating Spatiotemporal Welfare Losses from Recurring Harmful Algal Blooms in Lake Erie Recreational Fishing"
     authors: "Wu, Y., Lupi, F., & Sohngen, B. L."
-    note: ""
+    note: "(Currently under review at Land Economics)"
     image: "/img/papers/welfare.png"
     available: "Manuscript available upon request."
 
@@ -178,6 +178,9 @@ research_experience:
     period: "2018--2020"
 
 presentations:
+  - event: "Southeastern Workshop on Energy & Environmental Economics & Policy (SWEEEP)"
+    location: "Atlanta, GA"
+    date: "October 2026"
   - event: "Southeast Energy Policy Forum"
     location: "Knoxville, TN"
     date: "August 2026"

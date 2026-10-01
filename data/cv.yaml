@@ -107,6 +107,10 @@ working_papers:
     note: "(Currently under review at Land Economics)"
     image: "/img/papers/welfare.png"
     available: "Manuscript available upon request."
+  - title: "Data Centers, Land Use, and Housing Markets"
+    image: "/img/papers/dc_year.png"
+  - title: "Economic Costs and Benefits of Grazing Strategies"
+  - title: "Measuring Risk Aversion: Evidence from Choice Experiments and Holt-Laury Tasks"
 
 work_in_progress:
   - title: "Do Cow-Calf Producers Avoid Uncertain Conservation Payments? Measuring Risk Preferences for Ecosystem Service Contracts"
@@ -185,6 +189,9 @@ presentations:
   - event: "Southeast Energy Policy Forum"
     location: "Knoxville, TN"
     date: "August 2026"
+  - event: "Tennessee Valley Authority and Baker School Research Briefings"
+    location: "Knoxville, TN"
+    date: "August 2026"
   - event: "Agricultural and Applied Economics Association Annual Meeting"
     location: "Kansas City, MO"
     date: "July 2026"
@@ -194,6 +201,9 @@ presentations:
   - event: "W5133 Multi-State Project Annual Meeting"
     location: "Boise, ID"
     date: "February 2026"
+  - event: "Society for Range Management Annual Meeting"
+    location: "Monterey, CA"
+    date: "February 2026, presented by coauthors"
   - event: "AREC Departmental Seminar"
     location: "Knoxville, TN"
     date: "October 2025"
@@ -221,6 +231,15 @@ presentations:
   - event: "U.S. Department of Agriculture Carbon Sinks Modelling Meeting"
     location: "Atlanta, GA"
     date: "September 2022"
+
+outreach:
+  - title: "3M Scenario Evaluator"
+    description: "Producer-facing web tool for building and comparing modeled grazing scenarios"
+    role: "Co-developer"
+    collaborators: "O'Neil, G., Yang, H., Zhang, Y., Kuhl, A., Manning, D., & DeLay, N."
+    presented: "Presented by collaborators at the 3M All Producer Meeting"
+    location: "Ardmore, OK"
+    date: "October 2026, scheduled"
 
 professional_service:
   - "Referee for *Carbon Balance and Management* and *Catena*"

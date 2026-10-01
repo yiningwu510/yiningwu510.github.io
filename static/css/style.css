@@ -239,7 +239,13 @@ img { max-width: 100%; height: auto; display: block; }
 .education-institution { color: var(--color-secondary); font-size: 0.9rem; margin-top: 0.1rem; }
 
 /* ===== Paper Cards ===== */
+/* In an auto-height grid, 1fr rows all resolve to the tallest row,
+   so every card in a section matches the tallest card in that section */
+.paper-list { display: grid; grid-auto-rows: 1fr; }
+
 .paper-card {
+  display: flex;
+  flex-direction: column;
   background: none;
   border: none;
   border-bottom: 1px solid var(--color-border);
@@ -250,19 +256,25 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .paper-card:last-child { border-bottom: none; }
 
-.paper-card-inner { display: flex; }
+.paper-card-inner { display: flex; flex: 1; }
 
+/* Fixed 3:2 frame so every figure box is the same size whatever the image's shape;
+   contain (not cover) so charts are never cropped */
 .paper-image {
   flex-shrink: 0;
   width: 22%;
+  aspect-ratio: 3 / 2;
+  align-self: center;
   overflow: hidden;
-  background: none;
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0;
+  padding: 0.35rem;
 }
-.paper-image img { width: 100%; height: auto; object-fit: contain; transition: transform 0.3s; }
+.paper-image img { width: 100%; height: 100%; object-fit: contain; transition: transform 0.3s; }
 
 .paper-image-placeholder {
   flex-shrink: 0;
@@ -478,7 +490,9 @@ img { max-width: 100%; height: auto; display: block; }
   .paper-card-inner { flex-direction: column; }
   /* cross axis is horizontal when stacked -- centering would shrink-wrap the text */
   .paper-body { align-self: stretch; }
-  .paper-image { width: 100%; min-height: 160px; max-height: 200px; }
+  /* stacked cards: equal heights would leave gaps under short titles */
+  .paper-list { grid-auto-rows: auto; }
+  .paper-image { width: 100%; aspect-ratio: auto; height: 180px; }
   .paper-image-placeholder { width: 100%; height: 4px; background: linear-gradient(90deg, var(--color-accent), #d97706); }
   .teaching-header { flex-direction: column; gap: 0; }
   .news-item { flex-direction: column; gap: 0.2rem; }

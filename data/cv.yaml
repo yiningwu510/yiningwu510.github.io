@@ -106,16 +106,16 @@ working_papers:
     authors: "Wu, Y., Lupi, F., & Sohngen, B. L."
     note: "(Currently under review at Land Economics)"
     image: "/img/papers/welfare.png"
-    available: "Manuscript available upon request."
   - title: "Data Centers, Land Use, and Housing Markets"
+    authors: "Wu, Y., Fitzgerald, T., Holladay, S., Leard, B., & Manning, D."
     image: "/img/papers/dc_year.png"
-  - title: "Economic Costs and Benefits of Grazing Strategies"
-  - title: "Measuring Risk Aversion: Evidence from Choice Experiments and Holt-Laury Tasks"
 
 work_in_progress:
   - title: "Do Cow-Calf Producers Avoid Uncertain Conservation Payments? Measuring Risk Preferences for Ecosystem Service Contracts"
   - title: "Optimal Conservation Portfolio Design under Uncertainty: Risk Sharing between Contract Providers and Cow-Calf Producers"
   - title: "Siting and Powering Data Centers in Virginia and Tennessee"
+  - title: "Economic Costs and Benefits of Grazing Strategies"
+  - title: "Measuring Risk Aversion: Evidence from Choice Experiments and Holt-Laury Tasks"
 
 book_chapters:
   - authors: "Wu, Y."
@@ -186,12 +186,6 @@ presentations:
   - event: "Southeastern Workshop on Energy & Environmental Economics & Policy (SWEEEP)"
     location: "Atlanta, GA"
     date: "October 2026, scheduled"
-  - event: "Southeast Energy Policy Forum"
-    location: "Knoxville, TN"
-    date: "August 2026"
-  - event: "Tennessee Valley Authority and Baker School Research Briefings"
-    location: "Knoxville, TN"
-    date: "August 2026"
   - event: "Agricultural and Applied Economics Association Annual Meeting"
     location: "Kansas City, MO"
     date: "July 2026"
@@ -240,6 +234,14 @@ outreach:
     presented: "Presented by collaborators at the 3M All Producer Meeting"
     location: "Ardmore, OK"
     date: "October 2026, scheduled"
+  - title: "Southeast Energy Policy Forum"
+    talk: "Siting and Powering Data Centers in Virginia and Tennessee"
+    location: "Knoxville, TN"
+    date: "August 2026"
+  - title: "Tennessee Valley Authority and Baker School Research Briefings"
+    talk: "Siting and Powering Data Centers in Virginia and Tennessee"
+    location: "Knoxville, TN"
+    date: "August 2026"
 
 professional_service:
   - "Referee for *Carbon Balance and Management* and *Catena*"

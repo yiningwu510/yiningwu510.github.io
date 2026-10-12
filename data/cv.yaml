@@ -175,7 +175,10 @@ research_experience:
 presentations:
   - event: "Southeastern Workshop on Energy & Environmental Economics & Policy (SWEEEP)"
     location: "Atlanta, GA"
-    date: "October 2026, scheduled"
+    date: "October 2026"
+  - event: "3M All Producer Meeting"
+    location: "Ardmore, OK"
+    date: "October 2026, presented by coauthors"
   - event: "Agricultural and Applied Economics Association Annual Meeting"
     location: "Kansas City, MO"
     date: "July 2026"
@@ -223,7 +226,7 @@ outreach:
     collaborators: "O'Neil, G., Yang, H., Zhang, Y., Kuhl, A., Manning, D., & DeLay, N."
     presented: "Presented by collaborators at the 3M All Producer Meeting"
     location: "Ardmore, OK"
-    date: "October 2026, scheduled"
+    date: "October 2026"
   - title: "Southeast Energy Policy Forum"
     talk: "Siting and Powering Data Centers in Virginia and Tennessee"
     location: "Knoxville, TN"
@@ -272,6 +275,9 @@ skills:
   languages: "English (fluent), Chinese (native)"
 
 news:
+  - date: "2026-10-09"
+    title: "Presented at SWEEEP"
+    text: "Presented work on data centers, land use, and housing markets at the Southeastern Workshop on Energy & Environmental Economics & Policy (SWEEEP) at Georgia Tech in Atlanta, GA."
   - date: "2026-08-11"
     title: "Presented at Southeast Energy Policy Forum"
     text: "Presented work on siting and powering data centers in Virginia and Tennessee at the Southeast Energy Policy Forum. Enjoyed engaging with industry and policymakers on land use, electricity, and communities."

@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Yining Wu"
 
 [params]
-  description = "Academic website of Yining Wu - Applied economist: agricultural, environmental, and energy policy"
+  description = "Academic website of Yining Wu - Applied economist: agricultural and environmental policy"
 
 [markup]
   [markup.goldmark]

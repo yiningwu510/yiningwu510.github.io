@@ -88,7 +88,7 @@ publications:
     image: "/img/papers/raca.png"
 
 working_papers:
-  - title: "Optimizing Grazing Management for Profit and Ecosystem Services: An Integrated Biogeochemical-Economic Model"
+  - title: "SoFAME (Soil-Forage-Animal Management and Economics): Soil Organic Carbon in Grazing Decisions and Policy Incentives"
     authors: "Wu, Y., Manning, D., Zhang, Y., Lupi, F., DeLay, N., & Bista, D."
     image: "/img/papers/integrated.png"
     pdf: "/files/wu-job-market-paper.pdf"

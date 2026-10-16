@@ -1,0 +1,6 @@
+{{/* One venue block: "Event · Location · note" plus an Audience line. Context is a map
+     with event/location/note/audience keys (a tool entry or one talk venue). */}}
+<div class="outreach-venue">
+  {{ with .event }}<p class="outreach-where"><span class="outreach-event">{{ . }}</span>{{ with $.location }} &middot; {{ . }}{{ end }}{{ with $.note }} &middot; {{ . }}{{ end }}</p>{{ end }}
+  {{ with .audience }}<p class="outreach-audience"><span class="outreach-label">Audience</span><span>{{ . }}</span></p>{{ end }}
+</div>

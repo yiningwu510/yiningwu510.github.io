@@ -27,11 +27,15 @@
   {{ range $cv.outreach.talks }}
   <div class="teaching-card">
     <div class="teaching-header">
-      <h3>{{ .title }}</h3>
+      <h3>{{ .talk }}</h3>
       <span class="term">{{ .date }}</span>
     </div>
-    <p class="teaching-details">{{ with .talk }}&ldquo;{{ . }}&rdquo; &middot; {{ end }}{{ .location }}</p>
-    {{ with .audience }}<p class="teaching-eval">Audience: {{ . }}</p>{{ end }}
+    {{ range .venues }}
+    <div class="outreach-venue">
+      <p class="teaching-details">{{ .event }}, {{ .location }}</p>
+      {{ with .audience }}<p class="teaching-eval">Audience: {{ . }}</p>{{ end }}
+    </div>
+    {{ end }}
   </div>
   {{ end }}
 </section>

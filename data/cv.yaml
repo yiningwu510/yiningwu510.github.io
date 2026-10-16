@@ -231,16 +231,15 @@ outreach:
       audience: "Cow-calf producers and beef supply chain partners"
       url: "https://iwr.msu.edu/3m/Scenarios"
   talks:
-    - title: "Southeast Energy Policy Forum"
-      talk: "Siting and Powering Data Centers in Virginia and Tennessee"
-      location: "Knoxville, TN"
+    - talk: "Siting and Powering Data Centers in Virginia and Tennessee"
       date: "August 2026"
-      audience: "Government, industry, nonprofits, Oak Ridge National Laboratory, and the Tennessee Valley Authority"
-    - title: "Tennessee Valley Authority and Baker School Research Briefings"
-      talk: "Siting and Powering Data Centers in Virginia and Tennessee"
-      location: "Knoxville, TN"
-      date: "August 2026"
-      audience: "TVA"
+      venues:
+        - event: "Southeast Energy Policy Forum"
+          location: "Knoxville, TN"
+          audience: "Government, industry, nonprofits, Oak Ridge National Laboratory, and the Tennessee Valley Authority"
+        - event: "Tennessee Valley Authority and Baker School Research Briefings"
+          location: "Knoxville, TN"
+          audience: "Tennessee Valley Authority"
 
 professional_service:
   - "Referee for *Carbon Balance and Management* and *Catena*"

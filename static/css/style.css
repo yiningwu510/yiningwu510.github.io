@@ -373,9 +373,30 @@ img { max-width: 100%; height: auto; display: block; }
 .teaching-details { font-size: 0.9rem; color: var(--color-secondary); margin-bottom: 0.15rem; }
 .teaching-eval { font-size: 0.9rem; color: var(--color-text); }
 .teaching-eval strong { color: var(--color-accent); font-weight: 700; }
-/* Outreach reuses teaching cards; give its link buttons room */
-.teaching-card .paper-links { margin-top: 0.55rem; }
-.outreach-venue + .outreach-venue { margin-top: 0.5rem; }
+
+/* ===== Outreach Cards (reuse .teaching-card; each line type gets its own style) ===== */
+.teaching-card .paper-links { margin-top: 0.6rem; }
+.outreach-desc {
+  font-family: var(--font-heading);
+  font-style: italic;
+  font-size: 1.02rem;
+  color: var(--color-text);
+  line-height: 1.45;
+  margin-bottom: 0.2rem;
+}
+.outreach-team { font-size: 0.83rem; color: var(--color-muted); margin-bottom: 0.45rem; }
+.outreach-venue + .outreach-venue { margin-top: 0.6rem; }
+.outreach-where { font-size: 0.9rem; color: var(--color-secondary); }
+.outreach-event { font-weight: 600; color: var(--color-text); }
+.outreach-audience { display: flex; align-items: baseline; gap: 0.55rem; font-size: 0.9rem; color: var(--color-secondary); }
+.outreach-label {
+  flex-shrink: 0;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
 
 /* ===== CV Page ===== */
 .btn {

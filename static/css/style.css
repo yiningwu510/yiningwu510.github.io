@@ -373,6 +373,8 @@ img { max-width: 100%; height: auto; display: block; }
 .teaching-details { font-size: 0.9rem; color: var(--color-secondary); margin-bottom: 0.15rem; }
 .teaching-eval { font-size: 0.9rem; color: var(--color-text); }
 .teaching-eval strong { color: var(--color-accent); font-weight: 700; }
+/* Outreach reuses teaching cards; give its link buttons room */
+.teaching-card .paper-links { margin-top: 0.55rem; }
 
 /* ===== CV Page ===== */
 .btn {

@@ -17,6 +17,7 @@
           {{ if .description }}<p class="paper-meta">{{ .description }}{{ with .role }} &middot; Role: {{ . }}{{ end }}</p>{{ end }}
           {{ with .collaborators }}<p class="paper-meta">With {{ . }}</p>{{ end }}
           <p class="paper-meta">{{ with .presented }}{{ . }}, {{ end }}{{ .location }} ({{ .date }})</p>
+          {{ with .audience }}<p class="paper-meta">Audience: {{ . }}</p>{{ end }}
           {{ with .url }}<div class="paper-links"><a href="{{ . }}" target="_blank" rel="noopener" class="paper-link">Tool</a></div>{{ end }}
         </div>
       </div>

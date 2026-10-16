@@ -8,14 +8,13 @@
 <section class="section">
   <h2>Tools</h2>
   {{ range $cv.outreach.tools }}
-  {{ $role := .role }}{{ $collab := .collaborators }}
   <div class="teaching-card">
     <div class="teaching-header">
       <h3>{{ .title }}</h3>
       <span class="term">{{ .date }}</span>
     </div>
     {{ with .description }}<p class="outreach-desc">{{ . }}</p>{{ end }}
-    {{ if or $role $collab }}<p class="outreach-team">{{ with $role }}Role: {{ . }}{{ end }}{{ if and $role $collab }}, with {{ $collab }}{{ else }}{{ with $collab }}With {{ . }}{{ end }}{{ end }}</p>{{ end }}
+    {{ partial "outreach-team.html" . }}
     {{ partial "outreach-venue.html" . }}
     {{ with .url }}<div class="paper-links"><a href="{{ . }}" target="_blank" rel="noopener" class="paper-link">Tool</a></div>{{ end }}
   </div>
@@ -30,6 +29,7 @@
       <h3>{{ .talk }}</h3>
       <span class="term">{{ .date }}</span>
     </div>
+    {{ partial "outreach-team.html" . }}
     {{ range .venues }}{{ partial "outreach-venue.html" . }}{{ end }}
   </div>
   {{ end }}

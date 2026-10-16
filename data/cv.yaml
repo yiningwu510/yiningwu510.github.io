@@ -233,6 +233,8 @@ outreach:
       url: "https://iwr.msu.edu/3m/Scenarios"
   talks:
     - talk: "Siting and Powering Data Centers in Virginia and Tennessee"
+      role: "Lead author"
+      collaborators: "Fitzgerald, T., Holladay, J. S., & Manning, D."
       date: "August 2026"
       venues:
         - event: "Southeast Energy Policy Forum"

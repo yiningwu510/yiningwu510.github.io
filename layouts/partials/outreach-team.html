@@ -1,0 +1,2 @@
+{{/* Team line: "Role: X, with Y" (either part optional). Context is a tool or talk entry. */}}
+{{ if or .role .collaborators }}<p class="outreach-team">{{ with .role }}Role: {{ . }}{{ end }}{{ if and $.role $.collaborators }}, with {{ $.collaborators }}{{ else }}{{ with $.collaborators }}With {{ . }}{{ end }}{{ end }}</p>{{ end }}

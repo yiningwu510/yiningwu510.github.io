@@ -235,6 +235,14 @@ outreach:
       audience: "Cow-calf producers and beef supply chain partners"
       url: "https://iwr.msu.edu/3m/Scenarios"
   talks:
+    - talk: "Data Centers in Tennessee"
+      role: "Lead author"
+      collaborators: "Fitzgerald, T., Holladay, J. S., & Manning, D."
+      date: "November 2026"
+      venues:
+        - event: "Knoxville Chamber Infrastructure Council"
+          location: "Knoxville, TN"
+          audience: "Knoxville Chamber members, utilities, and government officials"
     - talk: "Siting and Powering Data Centers in Virginia and Tennessee"
       role: "Lead author"
       collaborators: "Fitzgerald, T., Holladay, J. S., & Manning, D."
